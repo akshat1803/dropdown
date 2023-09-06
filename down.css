@@ -1,10 +1,11 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto';
 }
-.nav{
+
+.nav {
     width: 100%;
     background-color: red;
     display: flex;
@@ -12,63 +13,94 @@
     text-align: center;
     padding: 20px;
 }
-.down h1
-{   
+
+.down h1 {
     color: white;
 }
 
-.drop
-{
+.drop {
     display: flex;
     padding: 10px;
 }
-.drop li{
+
+.drop li {
     padding: 0 40px;
     font-size: 18px;
     list-style: none;
     color: white;
     position: relative;
 }
-.drop a{
+
+.drop a {
     text-decoration: none;
-    color: white;  
+    color: white;
 }
-.home{
+
+.home {
     width: 200px;
     /* height: 300px; */
     display: none;
     /* display: block; */
     position: absolute;
     left: 0;
-    top: 100%;
+    top: 50px;
     background-color: red;
     text-align: center;
-    
+
 }
-.home li{
+
+.home li {
     padding: 10px 0;
     border: 0.8px solid rgb(52, 49, 49);
 
 }
-.service:hover .home{
+
+.service:hover .home {
     display: block;
+    transition: 0 5s;
 }
-.web:hover{
+
+.web:hover {
     background-color: black;
 }
 
-.php{
+.php {
     width: 200px;
     position: absolute;
-    right: 200px;
+    right: 199px;
     top: 20px;
     background-color: rgb(245, 42, 42);
-      display: none;
-   
+    display: none;
+
 }
-.j:hover .php{
-display: block;
+
+.j:hover .php {
+    transition: 5s;
+    display: block;
 }
-.php li{
+
+.php li {
     border: 0.8px solid rgb(52, 49, 49);
+}
+
+.php li:hover {
+    background-color: black;
+}
+
+.service a {
+    padding: 21px 0;
+}
+
+.four {
+    position: absolute;
+    background-color: rgb(173, 51, 51);
+    left: -136px;
+    top: -2px;
+display: none;
+}
+.type:hover .four{
+    display: block;
+}
+.four li{
+    padding: 10px;
 }
